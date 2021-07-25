@@ -1,9 +1,9 @@
 <?php
 //get data from form  
 
-$name = $_POST['name'];
-$email= $_POST['email'];
-$message= $_POST['message'];
+$name = $_POST['Name'];
+$email= $_POST['Email'];
+$message= $_POST['Phone'];
 $to = "vishalchaturvedi729@mail.com";
 $subject = "Mail From gotours";
 $txt ="Name = ". $name . "\r\n  Email = " . $email . "\r\n Message =" . $message;
